@@ -146,11 +146,7 @@ const About = () => {
               className="rounded-full object-cover shadow-lg"
             /> */}
 
-            <img
-              src="/public/Arkan.jpg"
-              alt="Arkanul Adelis"
-              style={imageStyle}
-            />
+            <img src="/Arkan.jpg" alt="Arkanul Adelis" style={imageStyle} />
           </div>
           <div className="w-full md:w-2/3 text-center md:text-left">
             <h2 className="text-3xl font-bold mb-4 text-green-500">
