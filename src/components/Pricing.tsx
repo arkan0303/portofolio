@@ -42,7 +42,7 @@ const pricingOptions = [
   },
   {
     title: "Website E-Commerce",
-    basePrice: 7500000,
+    basePrice: 6500000,
     deploymentFee: 1500000,
     hostingFee: 1000000,
     features: [
@@ -55,7 +55,7 @@ const pricingOptions = [
   },
   {
     title: "Portofolio Pribadi",
-    basePrice: 2500000,
+    basePrice: 1500000,
     deploymentFee: 300000,
     hostingFee: 300000,
     features: ["Desain Elegan", "Galeri Proyek", "Integrasi Media Sosial"],
@@ -63,7 +63,7 @@ const pricingOptions = [
   },
   {
     title: "Company Profile",
-    basePrice: 3000000,
+    basePrice: 2000000,
     deploymentFee: 300000,
     hostingFee: 300000,
     features: ["Desain Elegan", "Galeri Proyek", "Integrasi Media Sosial"],

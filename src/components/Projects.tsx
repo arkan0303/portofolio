@@ -1,5 +1,3 @@
-import React from "react";
-
 const projects = [
   {
     title: "Data Visualization Dashboard",
@@ -14,6 +12,12 @@ const projects = [
     image: "/company.png",
   },
   {
+    title: "Social Media Platform",
+    description:
+      "Built a social media app with real-time chat features using React, Node.js, and WebSocket.",
+    image: "/circle.png",
+  },
+  {
     title: "Quiz Application",
     description:
       "Developed an interactive quiz application using React Native and Firebase .",
@@ -25,12 +29,7 @@ const projects = [
       "Designed and developed a responsive portfolio site with React Native and Material UI.",
     image: "/apps2.png",
   },
-  {
-    title: "Social Media Platform",
-    description:
-      "Built a social media app with real-time chat features using React, Node.js, and WebSocket.",
-    image: "/circle.png",
-  },
+
   {
     title: "E-commerce",
     description:

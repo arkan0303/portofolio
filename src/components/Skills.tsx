@@ -290,7 +290,7 @@ const Skills = () => {
     padding: "0 2rem",
   };
 
-  const titleStyle = {
+  const titleStyle: React.CSSProperties = {
     fontSize: "2.5rem",
     fontWeight: "bold",
     marginBottom: "3rem",
@@ -316,7 +316,7 @@ const Skills = () => {
     alignItems: "start",
   };
 
-  const skillItemStyle = {
+  const skillItemStyle: React.CSSProperties = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",

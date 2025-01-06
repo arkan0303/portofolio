@@ -109,17 +109,28 @@
 
 // import Image from 'next/image'
 
+import { useInView } from "react-intersection-observer";
 const About = () => {
-  const imageStyle = {
+  const imageStyle: React.CSSProperties = {
     width: "300px",
     height: "300px",
     borderRadius: "50%",
     objectFit: "cover",
     boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.5)",
   };
+  const { ref, inView } = useInView({
+    threshold: 0.2, // Memicu animasi saat 20% komponen terlihat
+    triggerOnce: true, // Animasi hanya berjalan sekali
+  });
   return (
     <section id="about" className="py-16 bg-gray-900 text-white">
-      <div className="container mx-auto px-4">
+      <div
+        // className="container mx-auto px-4"
+        ref={ref}
+        className={`container mx-auto px-4 py-16 bg-gray-900 text-white transition-all duration-700 transform ${
+          inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+        }`}
+      >
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="w-full md:w-1/3 flex justify-center">
             {/* <Image
